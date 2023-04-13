@@ -57,7 +57,7 @@
 
 /*inizio seconda parte*/
 .sfondo-bianco{
-    height: 500px;
+    height: 400px;
     display: flex;
 }
 
@@ -83,6 +83,14 @@
     height: 300px;
     width: 25%;
 }
-
 /*fine seconda parte*/
+
+/*inizio terza parte*/
+.sfondo-grigio{
+    height: 400px;
+    display: flex;
+    background-color: lightgrey;
+}
+/*fine terza parte*/
+
 /*fine main*/
