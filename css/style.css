@@ -54,4 +54,35 @@
     height: 400px;
 }
 /*fine prima parte*/
+
+/*inizio seconda parte*/
+.sfondo-bianco{
+    height: 500px;
+    display: flex;
+}
+
+.riga-main-1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.col-lightblue,.col-pink{
+    height: 300px;
+    width: 30%;
+}
+
+.col-lightblue{
+    background-color: lightblue;
+}
+
+.col-pink{
+    background-color: pink;
+    height: 300px;
+    width: 25%;
+}
+
+/*fine seconda parte*/
 /*fine main*/
