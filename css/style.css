@@ -8,6 +8,9 @@
 .sfondo-blu{
     background-color: lightblue;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -16,18 +19,24 @@
     height: 30px;
     background-color: orange;
     display: flex;
-    justify-content: center;
-    
+
 }
 
 
 .col-nav-1,.col-nav-3{
     width: 25%;
     border: 2px dashed black;
+    padding: 5px;
 }
 
 
 .col-nav-2{
     width: 50%;
     border: 2px dashed black;
+    text-align: center;
+    padding: 5px;
 }
+/*fine header*/
+
+/*inizio main*/
+/*fine main*/
