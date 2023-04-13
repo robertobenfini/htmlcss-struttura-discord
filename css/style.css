@@ -5,7 +5,7 @@
 }
 
 /*inizio header*/
-.sfondo-blu{
+.sfondo-nav{
     background-color: lightblue;
     height: 60px;
     display: flex;
@@ -39,4 +39,19 @@
 /*fine header*/
 
 /*inizio main*/
+/*prima parte*/
+.sfondo-blu{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore-rosa{
+    width: 60%;
+    background-color: pink;
+    height: 400px;
+}
+/*fine prima parte*/
 /*fine main*/
