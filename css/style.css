@@ -93,4 +93,21 @@
 }
 /*fine terza parte*/
 
+/*inizio quinta parte*/
+.sfondo-grigiochiaro{
+    background-color: lightgray;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore-verde{
+    width: 60%;
+    background-color: green;
+    height: 900px;
+}
+
+/*fine quinta parte*/
+
 /*fine main*/
