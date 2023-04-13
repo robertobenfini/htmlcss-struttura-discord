@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /*inizio header*/
 .sfondo-nav{
     background-color: lightblue;
@@ -15,7 +16,7 @@
 
 
 .riga-nav{
-    width: 70%;
+    width: 55%;
     height: 30px;
     background-color: orange;
     display: flex;
@@ -52,6 +53,7 @@
     width: 55%;
     background-color: pink;
     height: 400px;
+    border: 1px dashed black;
 }
 /*fine prima parte*/
 
@@ -72,6 +74,7 @@
 .col-lightblue,.col-pink{
     height: 300px;
     width: 30%;
+    border: 1px dashed black;
 }
 
 .col-lightblue{
@@ -96,7 +99,7 @@
 /*inizio quinta parte*/
 .sfondo-grigiochiaro{
     background-color: lightgray;
-    height: 1000px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +108,8 @@
 .contenitore-verde{
     width: 55%;
     background-color: green;
-    height: 700px;
+    height: 600px;
+    border: 2px dashed black;
 }
 
 /*fine quinta parte*/
@@ -127,16 +131,42 @@
     background-color: red;
     height: 380px;
     width: 30%;
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
 
 .col-lightgreen{
     background-color: lightgreen;
     height: 380px;
     width: 17.5%;
-    border: 2px dashed white;
-
+    border: 1px dashed white;
 }
 /*fine sesta parte*/
-
 /*fine main*/
+
+/*inizio footer*/
+.sfondo-footer{
+    background-color: rgb(47, 47, 47);
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.riga-footer{
+    width: 55%;
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-footer-1,.col-footer-2{
+    height: 20px;
+    width: 8%;
+    background-color: orange;
+    font-size: 15px;
+    text-align: center;
+    border: 1px dashed black;
+}
+/*fine footer*/
