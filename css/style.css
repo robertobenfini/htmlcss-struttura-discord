@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*inizio header*/
+header{
+    background-color: lightblue;
+    height: 60px;
+    display: flex;
+}
+
+
+.riga-nav{
+    width: 70%;
+    height: 30px;
+    background-color: orange;
+}
+
+
+.col-nav-1,.col-nav-3{
+    width: 25%;
+    border: 2px dashed black;
+}
+
+.col-nav-2{
+    width: 50%;
+    border: 2px dashed black;
+}
