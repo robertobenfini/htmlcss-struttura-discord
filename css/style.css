@@ -1,13 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;;
+    box-sizing: border-box; 
+}
+
+/*utilities*/
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dashed{
     border: 1px dashed black;
 }
+/*fine utilities*/
 
 /*inizio header*/
 .sfondo-nav{
